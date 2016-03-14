@@ -1,0 +1,5 @@
+RewriteEngine on
+RewriteBase /gaditekhumanresource/
+RewriteCond $1 !\.(js|ico|gif|jpg|png|css|html|swf|mp3|wav|txt|ttf|svg|woff|eot|otf)$
+RewriteCond $1 !^(index\.php|images|robots\.txt)
+RewriteRule ^(.*)$ index.php/$1 [L]

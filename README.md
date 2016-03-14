@@ -1,2 +1,2 @@
-# gadihrm
-testing hrm
+# My Space
+ for Gaditek Human Resource
